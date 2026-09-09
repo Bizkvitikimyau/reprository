@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Hobbies - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Hobbies Gallery</a>
+    </nav>
+    <div class="container">
+        <h1>Featured Hobbies</h1>
+        <div class="carousel">
+            <div class="carousel-slide active"><img src="https://picsum.photos/id/1025/600/350" alt="Photography"></div>
+            <div class="carousel-slide"><img src="https://picsum.photos/id/1060/600/350" alt="Cooking"></div>
+            <div class="carousel-slide"><img src="https://picsum.photos/id/1080/600/350" alt="Gardening"></div>
+            <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
